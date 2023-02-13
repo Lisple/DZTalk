@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProfileActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="37dp"
+    android:background="@color/blue">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/background_content_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageProfile"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_profile"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/imageProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageProfile"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="@dimen/_8sdp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:text="@string/Name"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/picture"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/DZID"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/id_content"
+        android:layout_width="210dp"
+        android:layout_height="26dp"
+        android:text="@string/DZID_content"
+        android:paddingTop="5dp"
+        android:textSize="16sp"
+        android:background="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/id"
+        app:layout_constraintTop_toTopOf="@+id/id" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="111dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/location"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/location_content"
+        android:layout_width="111dp"
+        android:layout_height="25dp"
+        android:text="@string/location_content"
+        android:background="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/location"
+        app:layout_constraintTop_toTopOf="@+id/location" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/status"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/picture" />
+
+    <TextView
+        android:id="@+id/description_content"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/description"
+        android:textSize="20sp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/description"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/job" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/gender"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/status" />
+
+    <TextView
+        android:id="@+id/hometown"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/hometown"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/Birthday"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/job"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/picture"
+        app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+    <TextView
+        android:id="@+id/gender_content"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:text="@string/gender"
+        android:textSize="20sp"
+        android:background="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/gender"
+        app:layout_constraintTop_toTopOf="@+id/gender" />
+
+    <TextView
+        android:id="@+id/hometown_content"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:text="@string/hometown"
+        android:textSize="20sp"
+        android:background="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/gender"
+        app:layout_constraintTop_toTopOf="@+id/hometown" />
+
+    <TextView
+        android:id="@+id/birthday_content"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:text="@string/Birthday"
+        android:textSize="20sp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/birthday"
+        app:layout_constraintStart_toEndOf="@+id/gender" />
+
+    <TextView
+        android:id="@+id/email_content"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:text="@string/email"
+        android:background="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/email"
+        app:layout_constraintTop_toTopOf="@+id/email" />
+
+    <TextView
+        android:id="@+id/job_content"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/job"
+        android:textSize="20sp"
+        android:background="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/job"
+        app:layout_constraintTop_toTopOf="@+id/job" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/defaultpicture"
+        android:contentDescription="@string/picture_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:text="@string/edit"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/dark_blue"
+        android:textSize="15sp"
+        android:paddingTop="0sp"
+        app:layout_constraintBottom_toTopOf="@+id/gender_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/status"
+        app:layout_constraintTop_toBottomOf="@+id/location"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

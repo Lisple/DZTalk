@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "680362839788",
+    "project_id": "dztalk-3e295",
+    "storage_bucket": "dztalk-3e295.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680362839788:android:3a436be1f2a20d51e3dfc9",
+        "android_client_info": {
+          "package_name": "com.DZTalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680362839788-j5aqb18f4mr7m6ti14457elodvcmcuug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATjRutg6qFl_hDOmoKbi6nGtaU8kQj0ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680362839788-j5aqb18f4mr7m6ti14457elodvcmcuug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680362839788:android:13c85f4516a0e92de3dfc9",
+        "android_client_info": {
+          "package_name": "com.dztalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680362839788-j5aqb18f4mr7m6ti14457elodvcmcuug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATjRutg6qFl_hDOmoKbi6nGtaU8kQj0ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680362839788-j5aqb18f4mr7m6ti14457elodvcmcuug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

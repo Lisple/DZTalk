@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DZTalk</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="contactbook">Contact Book</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="type_a_message">Type a message</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <string name="Name">Name</string>
+    <string name="DZID">DZ ID:</string>
+    <string name="DZID_content">DZ ID</string>
+    <string name="location">IP Location:</string>
+    <string name="location_content">Location</string>
+    <string name="status">status</string>
+    <string name="description">Description</string>
+    <string name="picture_description">picture on the profile</string>
+    <string name="gender">Gender</string>
+    <string name="Birthday">Birthday</string>
+    <string name="hometown">Hometown</string>
+    <string name="email">E-mail</string>
+    <string name="job">Job</string>
+    <string name="chat">chat</string>
+    <string name="edit">edit</string>
+    <string name="submit">submit</string>
+    <string name="searching">Search a new friend</string>
+    <string name="searchHint">Search by name or Email</string>
+    <string name="update">Update IP</string>
+    <string name="pick_time">Select Date</string>
+    <string name="notification">Notification</string>
+    <string name="online">Online</string>
+    <string name="my_profile">My Profile</string>
+    <string name="chat_image_type">[Image]</string>
+    <string name="chat_location_type">[Location]</string>
+</resources>
